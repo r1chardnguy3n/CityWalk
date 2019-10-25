@@ -4,12 +4,12 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             BackgroundImageSource="citywalkbackground.png"
              mc:Ignorable="d">
     <ContentPage.Content>
         <StackLayout>
-            <Label HorizontalOptions="CenterAndExpand"
-                   Text="Welcome to Xamarin.Forms!"
-                   VerticalOptions="CenterAndExpand" />
+            <Image Margin="60,100,60,0"
+                   Source="citywalklogo.png" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
